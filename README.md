@@ -594,7 +594,7 @@ The following are screen shots taken from the Android profiler while using the a
 
 * On-Device Inference
 
-<img src="images/ondevice_metrics.png" width="800" float="left"/>
+<img src="images/ondevice_metrics.PNG" width="800" float="left"/>
  
 During on-device inference most resources listed (expect Network) have synchronous periodic peaks or dips (at the same time)
 
@@ -608,7 +608,7 @@ sensor usage). I could mean that our application might not be battery efficient.
 
 * Off-Device Inference
 
-<img src="images/offdevice_metrics.png" width="800" float="left"/>
+<img src="images/offdevice_metrics.PNG" width="800" float="left"/>
 
 The graph above shows that off device inference is considerably more efficient than on device inference. The CPU and
 Memory usages are almost never affected during inference times. The energy usage is also considerably more efficient. 
